@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">NestedScrollView</string><string name="dummy">"1) You need to use support library 23.2.0 (or) above
+
+
+    3) recyclerView.setNestedScrollingEnabled(false)
+
+    But by doing this the recycler patter
+    But by doing this the recycler patter
+    But by doing this the recycler patter
+    v
+    But by doing this the recycler patter
+    But by doing this the recycler patter
+    But by doing this the recycler patter
+    But by doing this the recycler patter
+    But by doing this the recycler pattern don't work. (i.e all the views will be loaded at once because wrap_content needs the height of complete recyclerView so it will draw all recycler views at once. No view will be recycled). Try not to use this pattern util unless it is really required. Try to use viewType and add all other views that needs to scroll to recyclerView</string>
+</resources>

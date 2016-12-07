@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button" />
+
+    <ToggleButton
+        android:text="ToggleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toggleButton" />
+
+    <CheckBox
+        android:text="CheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox" />
+
+    <CheckedTextView
+        android:text="CheckedTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkedTextView" />
+
+    <ToggleButton
+        android:text="ToggleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toggleButton3" />
+
+    <CheckedTextView
+        android:text="CheckedTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkedTextView2" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4" />
+
+    <RadioButton
+        android:text="RadioButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton" />
+
+    <CheckBox
+        android:text="CheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox3" />
+
+    <CheckedTextView
+        android:text="CheckedTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkedTextView3" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar2" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3" />
+
+    <RadioButton
+        android:text="RadioButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton2" />
+
+    <ToggleButton
+        android:text="ToggleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toggleButton2" />
+
+    <CheckBox
+        android:text="CheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox2" />
+</LinearLayout>
+
+
+    <!--
+
+    <ProgressBar
+    style="?android:attr/progressBarStyleLarge"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/progressBar" />
+
+    <SeekBar
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/seekBar" />
+
+    <Switch
+    android:text="Switch"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/switch1" />
+
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="textPersonName"
+    android:text="Name"
+    android:ems="10"
+    android:id="@+id/editText" />
+
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="textPassword"
+    android:ems="10"
+    android:id="@+id/editText2" />
+
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="numberPassword"
+    android:ems="10"
+    android:id="@+id/editText3" />
+
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="phone"
+    android:ems="10"
+    android:id="@+id/editText4" />
+
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="textMultiLine"
+    android:ems="10"
+    android:id="@+id/editText5" />
+
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="numberPassword"
+    android:ems="10"
+    android:id="@+id/editText6" />
+
+    <QuickContactBadge
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:srcCompat="@mipmap/ic_launcher"
+    android:id="@+id/quickContactBadge" />
+
+    <AutoCompleteTextView
+    android:text="AutoCompleteTextView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/autoCompleteTextView" />
+
+    <MultiAutoCompleteTextView
+    android:text="MultiAutoCompleteTextView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/multiAutoCompleteTextView" />
+
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="numberDecimal"
+    android:ems="10"
+    android:id="@+id/editText7" />
+
+    <ProgressBar
+    style="?android:attr/progressBarStyleLarge"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/progressBar2" />
+
+    <ToggleButton
+    android:text="ToggleButton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/toggleButton" />-->
